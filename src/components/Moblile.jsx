@@ -37,11 +37,11 @@ const Moblile = () => {
           <p className='py-3'>{item.description}</p>
           
 
-          <button className="bg-black text-white px-4 py-2 rounded-2xl mt-3"> onClick={() =>
+          <button className="bg-black text-white px-4 py-2 rounded-2xl mt-3" onClick={() =>
     window.open(
       'https://wa.me/923415394745?text=Hello%20I%20am%20interested%20in%20your%20products',
       '_blank'
-    )}
+    )}> 
             Contact Us
           </button>
         </div>
