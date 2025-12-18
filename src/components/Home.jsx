@@ -2,6 +2,7 @@ import React,  {useState} from 'react'
 import Laptop from './Laptop'
 import Moblile from './Moblile'
 import Footer from './Footer'
+import {Other} from './Other'
 
 const Home = () => {
     const [Catogary , setCatogary] = useState("all")
@@ -19,7 +20,7 @@ const Home = () => {
 <div className='w-full h-14 bg-slate-300 flex justify-start gap-4'><button onClick={()=> setCatogary('all')} className='w-20 h-10 bg-slate-300  font-serif text-black p-4'>ALL</button>
 <button onClick={() => setCatogary('Laptop')} className='w-20 h-10 bg-slate-300  font-serif text-black p-4'>LAPTOPS</button>
 <button onClick={() =>setCatogary('Mobiles')} className='w-20 h-10 bg-slate-300  font-serif text-black p-4'>MOBILES</button>
-<button className='w-20 h-10 bg-slate-300  font-serif text-black p-4'>OTHERS</button> 
+<button onClick={() =>setCatogary('Other')} className='w-20 h-10 bg-slate-300  font-serif text-black p-4'>OTHERS</button> 
 </div>
 
 <section>
@@ -27,11 +28,13 @@ const Home = () => {
         <>
         <Laptop/>
         <Moblile/>
+        <Other/>
         </>
     )}
 
     {Catogary === 'Laptop'&& <Laptop/>}
     {Catogary === 'Mobiles'&& <Moblile/>}
+    {Catogary === 'Other'&& <Other/>}
 </section>
 
 <Footer/>

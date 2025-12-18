@@ -13,7 +13,7 @@ const Moblile = () => {
             { id: 1, productname:"itel", productcode:"10001 " , price:"27000 ", orignalprice:"35000", description:" this is hp brand laptop with higher discount " , productimag:m3, },
             { id: 1, productname:"realme", productcode:"10001 " , price:"27000 ", orignalprice:"35000", description:" this is hp brand laptop with higher discount " , productimag:m4, },
             { id: 1, productname:"redme", productcode:"10001 " , price:"27000 ", orignalprice:"35000", description:" this is hp brand laptop with higher discount " , productimag:m5, },
-            { id: 1, productname:"techno go ", productcode:"10001 " , price:"27000 ", orignalprice:"35000", description:" this is hp brand laptop with higher discount " , productimag:m6, },
+            { id: 1, productname:"I phone 7 ", productcode:"10001 " , price:"10000 ", orignalprice:"35000", description:" this is hp brand laptop with higher discount " , productimag:m6, },
     
             { id: 1, productname:"samsung", productcode:"10001 " , price:"27000 ", orignalprice:"35000", description:" this is hp brand laptop with higher discount " , productimag:m7, },
     
@@ -31,7 +31,7 @@ const Moblile = () => {
           <img src={item.productimag} alt="" className="w-full h-40 object-cover rounded-md"/>
 
           <h2 className="text-2xl font-bold mt-3">{item.productname}</h2>
-          <div className='flex justify-between'><p className="text-gray-600">Rs: {item.price}</p>
+          <div className='flex justify-between'><p className="text-gray-600">Rs: <strong>{item.price} </strong></p>
           <p className="text-gray-600 line-through">Rs: {item.orignalprice}</p>
           </div>
           <p className='py-3'>{item.description}</p>
