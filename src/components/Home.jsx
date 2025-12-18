@@ -12,7 +12,7 @@ const Home = () => {
     </div>
     <div class="bg-white text-black mt-5 py-3">
   <marquee class="text-2xl font-bold">
-    ........WELCOME TO Sadeeq STORE........
+    ........WELCOME TO SADEEQ STORE........
     
   </marquee>
   
