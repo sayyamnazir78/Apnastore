@@ -8,11 +8,11 @@ const Home = () => {
     const [Catogary , setCatogary] = useState("all")
   return (
     <>
-    <div className='w-full h-14 md:h-20 bg-black  text-center py-3   '> <h1 className=' text-white text-2xl font-bold  md:text-5xl md:font-extrabold md:tracking-[0.3em] '>APNA STORE</h1>
+    <div className='w-full h-14 md:h-20 bg-black  text-center py-3   '> <h1 className=' text-white text-2xl font-bold  md:text-5xl md:font-extrabold md:tracking-[0.3em] '>SADEEQ STORE</h1>
     </div>
     <div class="bg-white text-black mt-5 py-3">
   <marquee class="text-2xl font-bold">
-    ........WELCOME TO APNA STORE........
+    ........WELCOME TO Sadeeq STORE........
     
   </marquee>
   
