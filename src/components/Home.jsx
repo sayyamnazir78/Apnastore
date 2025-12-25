@@ -3,6 +3,7 @@ import Laptop from './Laptop'
 import Moblile from './Moblile'
 import Footer from './Footer'
 import {Other} from './Other'
+import { FaWhatsapp } from "react-icons/fa";
 
 const Home = () => {
     const [Catogary , setCatogary] = useState("all")
@@ -10,8 +11,8 @@ const Home = () => {
     <>
     <div className='w-full h-14 md:h-20 bg-black  text-center py-3   '> <h1 className=' text-white text-2xl font-bold  md:text-5xl md:font-extrabold md:tracking-[0.3em] '>SADEEQ STORE</h1>
     </div>
-    <div class="bg-white text-black mt-5 py-3">
-  <marquee class="text-2xl font-bold">
+    <div className="bg-white text-black mt-5 py-3">
+  <marquee className="text-2xl font-bold">
     ........WELCOME TO SADEEQ STORE........
     
   </marquee>
@@ -36,6 +37,15 @@ const Home = () => {
     {Catogary === 'Mobiles'&& <Moblile/>}
     {Catogary === 'Other'&& <Other/>}
 </section>
+
+  <a
+      href="https://wa.me/923415394745"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="fixed bottom-5 right-5 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg"
+    >
+      <FaWhatsapp size={30} />
+    </a>
 
 <Footer/>
 
