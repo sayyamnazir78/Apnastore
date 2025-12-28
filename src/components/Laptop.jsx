@@ -47,11 +47,11 @@ const Laptop = () => {
   return (
     <>
       <h1 className='font-extrabold text-3xl mt-44 ml-10 '>Laptops</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 p-6">
         {data.map((item) => (
           <div
             key={item.id}
-            className="shadow-lg p-4 h-auto relative rounded-lg border hover:shadow-black"
+            className="shadow-lg p-4 w-96 h-auto relative rounded-lg border hover:shadow-black"
           >
             <img src={item.productimag} alt={item.productname} loading="lazy" className="w-full h-72 object-cover rounded-md" />
 
