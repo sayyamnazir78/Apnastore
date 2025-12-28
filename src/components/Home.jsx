@@ -18,7 +18,7 @@ const Home = () => {
   </marquee>
   
 </div>
-<div className='w-full h-14 bg-slate-300 flex justify-start gap-4'><button onClick={()=> setCatogary('all')} className='w-20 h-10 bg-slate-300  font-serif text-black p-4'>ALL</button>
+<div className='w-full h-14 bg-slate-300 flex justify-start px-1 gap-4'><button onClick={()=> setCatogary('all')} className='w-20 h-10 bg-slate-300  font-serif text-black p-4'>ALL</button>
 <button onClick={() => setCatogary('Laptop')} className='w-20 h-10 bg-slate-300  font-serif text-black p-4'>LAPTOPS</button>
 <button onClick={() =>setCatogary('Mobiles')} className='w-20 h-10 bg-slate-300  font-serif text-black p-4'>MOBILES</button>
 <button onClick={() =>setCatogary('Other')} className='w-20 h-10 bg-slate-300  font-serif text-black p-4'>OTHERS</button> 
