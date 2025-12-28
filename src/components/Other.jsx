@@ -44,7 +44,7 @@ export const Other = () => {
             key={item.id}
             className="shadow-lg p-4 h-auto relative  rounded-lg border hover:shadow-black"
           >
-            <img src={item.productimag} alt={item.productname} loading="lazy" className="w-full h-40 object-cover rounded-md" />
+            <img src={item.productimag} alt={item.productname} loading="lazy" className="w-full h-72 object-cover rounded-md" />
 
             <h2 className="text-xl font-bold mt-2">{item.productname}</h2>
             <div className='flex justify-between mt-3'><p className="text-gray-600">Rs:<strong>{item.price} </strong></p>
