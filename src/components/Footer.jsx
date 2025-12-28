@@ -21,7 +21,7 @@ const Footer = () => {
         href="https://wa.me/923498222027"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white border-white border-2 rounded-full p-1"
+        className="text-white border-white border-2 rounded-full p-1  hover:scale-110 transition"
       >
         <FaWhatsapp />
       </a>
@@ -31,7 +31,7 @@ const Footer = () => {
         href="https://www.facebook.com/yourusername"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white border-white border-2 rounded-full p-1"
+        className="text-white border-white border-2 rounded-full p-1  hover:scale-110 transition"
       >
         <FaFacebook />
       </a>
@@ -41,7 +41,7 @@ const Footer = () => {
         href="https://www.instagram.com/yourusername"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white border-white border-2 rounded-full p-1"
+        className="text-white border-white border-2 rounded-full p-1  hover:scale-110 transition"
       >
         <FaInstagram />
       </a>
