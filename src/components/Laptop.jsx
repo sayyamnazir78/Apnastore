@@ -51,7 +51,7 @@ const Laptop = () => {
         {data.map((item) => (
           <div
             key={item.id}
-            className="shadow-lg p-4 w-96 h-auto relative rounded-lg border hover:shadow-black"
+            className="shadow-lg p-4 w-72 md:w-96 h-auto relative rounded-lg border hover:shadow-black"
           >
             <img src={item.productimag} alt={item.productname} loading="lazy" className="w-full h-72 object-cover rounded-md" />
 
